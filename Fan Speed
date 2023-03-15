@@ -1,0 +1,9 @@
+/*
+This gives the Fan speed of the Mac Laptop.
+*/
+
+sudo powermetrics -i 5000 --samplers smc | grep Fan
+
+/*
+-i : to run this sample every x ms (0=disabled) [default: 5000ms]
+*/
